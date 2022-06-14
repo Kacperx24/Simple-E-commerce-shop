@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Simple-E-commerce-shop/static/css/main.6a82e33c.css",
+    "main.js": "/Simple-E-commerce-shop/static/js/main.19eb0056.js",
+    "static/media/w-dress-2.jpg": "/Simple-E-commerce-shop/static/media/w-dress-2.3d79ac68afc483653e99.jpg",
+    "static/media/w-coat-2.jpg": "/Simple-E-commerce-shop/static/media/w-coat-2.5de6ff1a8c9f6892d271.jpg",
+    "static/media/w-dress-4.jpg": "/Simple-E-commerce-shop/static/media/w-dress-4.fda7ebfdf49053929f8f.jpg",
+    "static/media/m-jacket-3.jpg": "/Simple-E-commerce-shop/static/media/m-jacket-3.349bcb3099634a70d5fe.jpg",
+    "static/media/w-coat-3.jpg": "/Simple-E-commerce-shop/static/media/w-coat-3.3b95b084a42c208a0d58.jpg",
+    "static/media/m-jacket-2.jpg": "/Simple-E-commerce-shop/static/media/m-jacket-2.7f0d357f04d4556f1f28.jpg",
+    "static/media/w-shirt-4.jpg": "/Simple-E-commerce-shop/static/media/w-shirt-4.3eb6c9e5c6fc4251886b.jpg",
+    "static/media/w-shirt-3.jpg": "/Simple-E-commerce-shop/static/media/w-shirt-3.eff5f02e444a2ee67634.jpg",
+    "static/media/w-jeans-2.jpg": "/Simple-E-commerce-shop/static/media/w-jeans-2.d239586b342636e67345.jpg",
+    "static/media/m-shirt-3.jpg": "/Simple-E-commerce-shop/static/media/m-shirt-3.08c4fe0ebbcb9ae4240c.jpg",
+    "static/media/w-dress-3.jpg": "/Simple-E-commerce-shop/static/media/w-dress-3.75478c10ef7b5e7be0ed.jpg",
+    "index.html": "/Simple-E-commerce-shop/index.html",
+    "main.6a82e33c.css.map": "/Simple-E-commerce-shop/static/css/main.6a82e33c.css.map",
+    "main.19eb0056.js.map": "/Simple-E-commerce-shop/static/js/main.19eb0056.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a82e33c.css",
+    "static/js/main.19eb0056.js"
+  ]
+}
