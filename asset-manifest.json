@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Simple-E-commerce-shop/static/css/main.193b1093.css",
+    "main.css": "/Simple-E-commerce-shop/static/css/main.7fd08ee2.css",
     "main.js": "/Simple-E-commerce-shop/static/js/main.19eb0056.js",
     "static/media/w-dress-2.jpg": "/Simple-E-commerce-shop/static/media/w-dress-2.3d79ac68afc483653e99.jpg",
     "static/media/w-coat-2.jpg": "/Simple-E-commerce-shop/static/media/w-coat-2.5de6ff1a8c9f6892d271.jpg",
@@ -14,11 +14,11 @@
     "static/media/m-shirt-3.jpg": "/Simple-E-commerce-shop/static/media/m-shirt-3.08c4fe0ebbcb9ae4240c.jpg",
     "static/media/w-dress-3.jpg": "/Simple-E-commerce-shop/static/media/w-dress-3.75478c10ef7b5e7be0ed.jpg",
     "index.html": "/Simple-E-commerce-shop/index.html",
-    "main.193b1093.css.map": "/Simple-E-commerce-shop/static/css/main.193b1093.css.map",
+    "main.7fd08ee2.css.map": "/Simple-E-commerce-shop/static/css/main.7fd08ee2.css.map",
     "main.19eb0056.js.map": "/Simple-E-commerce-shop/static/js/main.19eb0056.js.map"
   },
   "entrypoints": [
-    "static/css/main.193b1093.css",
+    "static/css/main.7fd08ee2.css",
     "static/js/main.19eb0056.js"
   ]
 }
