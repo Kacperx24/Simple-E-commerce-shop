@@ -1,0 +1,116 @@
+section#category {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  // padding: 20px 0;
+  width: 85%;
+  .headings-wrap {
+    display: flex;
+    justify-content: space-between;
+    h3.tag {
+      opacity: 0.5;
+    }
+  }
+  .gender {
+    margin: 50px auto 25px;
+    width: 100%;
+    max-width: 400px;
+    gap: 8%;
+    // mar
+    display: grid;
+    color: var(--extra-light-primary-color);
+    grid-template-columns: 1fr 1fr;
+    & > div {
+      width: 100%;
+      background: rgb(248, 248, 248);
+      border-radius: 12px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+      &:hover {
+      }
+      &.picked {
+        background: var(--secondary-color);
+        color: var(--alt-color);
+      }
+      .icon-wrap {
+        display: flex;
+        font-size: 40px;
+        align-items: center;
+        justify-content: center;
+      }
+      p.name {
+        font-weight: 600;
+        font-size: 14px;
+      }
+    }
+  }
+  .categories-wrap {
+    margin-top: 40px;
+    width: 100%;
+    .categories {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      max-width: 1080px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+    }
+    button.category-btn {
+      cursor: pointer;
+      outline: none;
+      border: none;
+      padding: 6px 18px;
+      background: rgb(248, 248, 248);
+      border-radius: 44px;
+      box-shadow: 0px 2px 6px rgba(123, 123, 123, 0.2);
+      color: var(--extra-light-primary-color);
+      font-weight: 600;
+      // transition: 0.4s;
+      &.active {
+        background: var(--extra-light-primary-color);
+        background: var(--secondary-color);
+        color: var(--alt-color);
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  section#category {
+    .heading-wrap {
+    }
+    .gender {
+      max-width: 480px;
+      & > div {
+        padding: 36px;
+        gap: 24px;
+        .icon-wrap {
+          font-size: 48px;
+        }
+        p.name {
+          font-size: 16px;
+        }
+      }
+    }
+    .categories-wrap {
+      margin-top: 40px;
+      .categories {
+        gap: 40px;
+        button.category-btn {
+          padding: 8px 30px;
+          border-radius: 44px;
+          box-shadow: 0px 2px 8px rgba(123, 123, 123, 0.2);
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}

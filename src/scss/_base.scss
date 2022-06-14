@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Poppins;
+}
+
+#root {
+  width: 100%;
+}
+
+img {
+  display: block;
+  width: auto;
+  max-height: 100%;
+}
+
+h2.heading {
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+h3.name {
+  color: var(--light-primary-color);
+}
+
+h3.tag {
+  color: var(--extra-light-primary-color);
+  font-size: 16px;
+}
+
+h2.name {
+  color: var(--primary-color);
+}
+
+p.price {
+  color: var(--primary-color);
+}
+
+button.add-cart {
+  background: var(--secondary-color);
+  color: var(--alt-color);
+}
+
+.limited {
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+section {
+  margin-bottom: 50px;
+  color: var(--primary-color);
+}
+button {
+  outline: none;
+  border: none;
+  color: inherit;
+}
+
+@media (min-width: 992px) {
+  section {
+    margin-bottom: 75px;
+  }
+  h2.heading {
+    font-size: 28px;
+  }
+  h3.tag {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1600px) {
+  section {
+    margin-bottom: 100px;
+  }
+
+  h3.tag {
+    font-size: 20px;
+  }
+}
